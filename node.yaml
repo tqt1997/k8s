@@ -9,7 +9,7 @@ spec:
   containers:
   - name: c1
     image: <Image>
-    resources:
+    resources:`
       limits:
         memory: "128Mi"
         cpu: "500m"
